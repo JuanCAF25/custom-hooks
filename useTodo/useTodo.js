@@ -1,5 +1,5 @@
-import { useEffect, useReducer, useState } from "react";
-import { TodoList, TodoAdd, todoReducer } from "../08-useReducer/index";
+import { useEffect, useReducer } from "react";
+import { todoReducer } from "./TodoReducer";
 
 const initalState = [];
 
